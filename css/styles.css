@@ -104,5 +104,58 @@ body {
     top: 500%;
     width: 80vh;
 
-
 }
+
+/* scrolldown icon */
+
+.scrolldown{
+    height: 50px;
+    width: 30px;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.scrolldown::before,
+.scrolldown::after{
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border: 1px solid black;
+    height: 5px;
+    width: 5px;
+    transform: translate(-50%,-100%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scrolldown 1s ease-in-out infinite;
+}
+
+.scrolldown::after{
+    top: 30%;
+    animation-delay: .3s;
+}
+
+@keyframes scrolldown{
+    0%{
+        opacity: 0;
+    }
+
+    30%{
+        opacity: 1;
+    }
+
+    60%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+        top: 90%;
+    }
+}
+
+/* end of scrolldown code */
