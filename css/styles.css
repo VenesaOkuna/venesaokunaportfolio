@@ -43,7 +43,8 @@ section{
 
 .bg-image{
     height: 6em;
-     width: 17.1em;
+    width: 17.1em;
+    background-repeat: no-repeat;
 }
 
 /* navigation bar */
