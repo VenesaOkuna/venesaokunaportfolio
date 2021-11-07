@@ -379,6 +379,13 @@ section{
 
  /* education background */
 
+ .sch{
+    position: absolute;
+    font-weight: 800;
+    top: 10em;
+    left: 28em;
+ }
+
  .edu{
      position: absolute;
      top: 8.5em;
@@ -430,4 +437,65 @@ section{
     width: 35em;
     top: 47em;
     left: 63.5em;
+}
+
+/* professional experience */
+
+.wrk{
+    position: absolute;
+    font-weight: 800;
+    width: 10em;
+    top: 5em;
+    left: 28em;
+}
+
+.work{
+    position: absolute;
+    top: 16em;
+    left: 1.5em;
+}
+
+.vid{
+    position: absolute;
+    font-size: 17px;
+    width: 15em;
+    top: 9em;
+    left: 45em;
+}
+.vid1{
+    position: absolute;
+    font-size: 12px;
+    width: 35em;
+    top: 18em;
+    left: 63.8em;
+}
+
+.fem{
+    position: absolute;
+    font-size: 17px;
+    width: 15em;
+    top: 16em;
+    left: 45em;
+}
+.fem1{
+    position: absolute;
+    font-size: 12px;
+    width: 35em;
+    top: 27.5em;
+    left: 63.8em;
+}
+
+.acc{
+    position: absolute;
+    font-size: 17px;
+    width: 15em;
+    top: 22.5em;
+    left: 45em;
+}
+.acc1{
+    position: absolute;
+    font-size: 12px;
+    width: 35em;
+    top: 35em;
+    left: 63.8em;
 }
