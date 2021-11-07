@@ -4,6 +4,7 @@ p {
   position: absolute;
 }
 
+
 a {
     
     
@@ -30,19 +31,27 @@ a {
 
 section{
 
-    background-size: cover;
     height: 100vh;
-    width: 100vh;
-    align-items: center;
-    justify-content: space-evenly;
+    width: 100vw;
     
+    /* justify-content: space-evenly; */
+    
+}
+
+
+/* background image */
+
+.bg-image{
+    height: 6em;
+     width: 17.1em;
 }
 
 /* navigation bar */
 
-.header{
+#header{
     
     position: absolute;
+    height: 100vh;
     top: 0vh;
     left: 1em;
     
@@ -66,7 +75,7 @@ section{
 
     text-align: right;
     position: absolute;
-    top: 3%;
+    top: 0.1em;
 
 }
 
@@ -119,6 +128,8 @@ section{
     font-weight: 800;
     padding: 0;
     width: 10px;
+    top: 2em;
+    left: 3.8em;
 
 }
 
@@ -132,8 +143,8 @@ section{
     letter-spacing: 1px;
     font-weight: 300;
     padding: 0px;
-    top: 500%;
-    width: 80vh;
+    top: 19em;
+    width: 30em;
 
 }
 
@@ -144,10 +155,12 @@ section{
     height: 50px;
     width: 30px;
     position: absolute;
-    left: 50%;
+    left: 8em;
     bottom: 5%;
     border-radius: 50px;
     cursor: pointer;
+    top: 7.1em;
+    
 
 }
 
@@ -202,8 +215,8 @@ section{
 .fa {
 
     position: absolute;
-    top: 9.5vh;
-    left: 60vw;
+    top: 1.87em;
+    left: 22em;
     font-size: 50%;
     width: 5%;
     text-align: right;
@@ -219,14 +232,14 @@ section{
   
   .fa-facebook {
     
-    left: 69vw;
+    left: 24em;
     background: transparent;
     color: white;
   }
   
   .fa-twitter {
     
-    left: 79vw;
+    left: 26.5em;
     background: transparent;
     color: white;
   }
@@ -240,6 +253,7 @@ section{
   /* introductoey text */
 
   .intro p{
+
       position: absolute;
       font-family: 'Annie Use Your Telescope', cursive;
       color: #3a6073;
@@ -247,9 +261,86 @@ section{
       font-size: 20px;
       font-weight: 600;
       letter-spacing: 6px;
-      width: 70vw;
-      height: 10vw;
-      bottom: -8vh;
-      left: 16.5%;
+      width: 53em;
+      height: 2em;
+      bottom: 3.2em;
+      left: 3.5em;
 
   }
+
+  .rectangle{
+    height: 2em;
+    width: 100vw;
+    background-color: #f8f8f8;
+    position: absolute;
+    top: 6em;
+    left: -5.9vw;
+  }
+
+  /* landing page services */
+
+     #services{
+
+        background-size: cover;
+        background-color: #f1e7ee;
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        
+
+    }
+
+  h1, .h1 {
+      position: absolute;
+      color: #3a6073;
+      top: 16.5em;
+      left: 16.3em;
+
+    }
+
+    /* services images */
+
+    .d-flex{
+        flex-direction: column;
+        position: absolute;
+        top: 10em;
+        width: 40vw;
+
+    }
+
+    /* services description */
+
+    .description{
+        position: absolute;
+        font-size: 25px;
+        color: #959dc1;
+    }
+
+    .an{
+        position: absolute;
+        
+    }
+
+    .mo{
+        position: absolute;
+    }
+
+    .we{
+        position: absolute;
+    }
+
+    .co{
+        position: absolute;
+    }
+
+    .ui{
+        position: absolute;
+    }
+
+
+
+    /* last section of landing page */
+
+    #last{
+        background-color: #f7f2f5;
+    }
