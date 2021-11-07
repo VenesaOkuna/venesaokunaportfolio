@@ -345,3 +345,16 @@ section{
     #last{
         background-color: #f7f2f5;
     }
+
+    /* ABOUT ME PAGE */
+
+    /* profile image */
+
+.ness{
+    position: absolute;
+    border-radius: 50%;
+    width: %;
+    height: ;
+    top: ;
+    left: ;
+}
