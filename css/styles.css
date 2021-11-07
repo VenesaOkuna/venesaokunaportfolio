@@ -370,8 +370,64 @@ section{
  .me{
      position: absolute;
      font-size: 20px;
+     color: #3a6073;
      width: 33em;
      top: 25em;
      left: 6em;
 
  }
+
+ /* education background */
+
+ .edu{
+     position: absolute;
+     top: 8.5em;
+     left: 1.5em;
+
+ }
+
+ .mor{
+     position: absolute;
+     font-size: 17px;
+     width: 15em;
+     top: 15em;
+     left: 45em;
+ }
+
+.mor1{
+    position: absolute;
+    font-size: 12px;
+    width: 35em;
+    top: 27em;
+    left: 63.5em;
+}
+
+.kca{
+    position: absolute;
+    font-size: 17px;
+    width: 15em;
+    top: 23em;
+    left: 45em;
+}
+.kca1{
+    position: absolute;
+    font-size: 12px;
+    width: 35em;
+    top: 37.8em;
+    left: 63.5em;
+}
+
+.arya{
+    position: absolute;
+    font-size: 17px;
+    width: 15em;
+    top: 31em;
+    left: 45em;
+}
+.arya1{
+    position: absolute;
+    font-size: 12px;
+    width: 35em;
+    top: 47em;
+    left: 63.5em;
+}
