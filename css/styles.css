@@ -381,6 +381,7 @@ section{
 
  .sch{
     position: absolute;
+    width: 15em;
     font-weight: 800;
     top: 10em;
     left: 28em;
@@ -514,4 +515,72 @@ section{
     width: 10em;
     top: -5em;
     left: 30em;
+}
+
+
+/* my work page */
+
+/* street food website */
+
+.str{
+    position: absolute;
+    width: 15em;
+    font-weight: 800;
+    top: 10em;
+    left: 28em;
+}
+
+.brief{
+    position: absolute;
+    font-size: 23px;
+    font-weight: bold;
+    width: 15em;
+    top: 15em;
+    left: 33.2em;
+}
+
+.web{
+    position: absolute;
+    font-size: 18px;
+    width: 26em;
+    top: 23em;
+    left: 42em;
+}
+
+.sfood{
+    position: absolute;
+    height: 2vh;
+}
+
+/* construction website part */
+
+.img2{
+    position: absolute;
+    top: 16em;
+    left: 1.5em;
+}
+
+.con{
+    position: absolute;
+    font-weight: 800;
+    width: 13em;
+    top: 5em;
+    left: 28em;
+}
+
+.pro{
+    position: absolute;
+    font-size: 23px;
+    font-weight: 800;
+    width: 15em;
+    top: 9em;
+    left: 32.7em;
+}
+
+.thi{
+    position: absolute;
+    font-size: 18px;
+    width: 30em;
+    top: 15.4em;
+    left: 42em;
 }
