@@ -499,3 +499,19 @@ section{
     top: 35em;
     left: 63.8em;
 }
+
+/* hobbies */
+
+.love{
+    text-align: center;
+    top: 103em;
+    left: 5em;
+}
+
+.ttl{
+    position: absolute;
+    font-weight: 800;
+    width: 10em;
+    top: -5em;
+    left: 30em;
+}
