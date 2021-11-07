@@ -353,8 +353,25 @@ section{
 .ness{
     position: absolute;
     border-radius: 50%;
-    width: %;
-    height: ;
-    top: ;
-    left: ;
+
 }
+
+ /*  name and brief description */
+
+ .myname{
+     position: absolute;
+     color: white;
+     width: 12em;
+     top: 4.5em;
+     left: 1.5em;
+     
+    }
+
+ .me{
+     position: absolute;
+     font-size: 20px;
+     width: 33em;
+     top: 25em;
+     left: 6em;
+
+ }
