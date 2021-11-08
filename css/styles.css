@@ -128,9 +128,10 @@ section{
     line-height: 1.1em;
     font-weight: 800;
     padding: 0;
-    width: 10px;
-    top: 2em;
-    left: 3.8em;
+    width: 10em;
+    text-shadow: 2px 2px #3a6073;
+    top: 2.5em;
+    left: 1.3em;
 
 }
 
@@ -142,10 +143,12 @@ section{
     font-size: 17px;
     font-family: 'Inter', sans-serif;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 800;
     padding: 0px;
-    top: 19em;
+    top: 17em;
+    left: 1em;
     width: 30em;
+    text-shadow: 2px 2px #000;
 
 }
 
@@ -314,7 +317,7 @@ section{
     .description{
         position: absolute;
         font-size: 25px;
-        color: #959dc1;
+        color: #3a6073;
     }
 
     .an{
@@ -381,6 +384,7 @@ section{
 
  .sch{
     position: absolute;
+    color: #3a6073;
     width: 15em;
     font-weight: 800;
     top: 10em;
@@ -445,6 +449,7 @@ section{
 .wrk{
     position: absolute;
     font-weight: 800;
+    color: #3a6073;
     width: 10em;
     top: 5em;
     left: 28em;
